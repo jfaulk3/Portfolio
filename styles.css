@@ -1,22 +1,111 @@
+* {box-sizing: border-box;}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Handlee, serif;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
 #header {
-  display:flex;
+  display: flex;
+  color: #FFFFFF;
   background-image: url("images/nav-background.jpg");
 }
 
-.nav {
-  color: white;
+#profile-img {
+  width: 250px;
+  border-radius: 10%;
+  margin: 25px 50px 25px 50px;
 }
 
-#header-img {
-  width: 200px;
-  border-radius: 50%;
+#myTitle {
+  font-size: 25px;
 }
 
-#footer-links {
-  list-style-type: none;
+#profile-container {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  margin: 50px 50px 25px 100px;
+  text-align: center;
 }
 
-a:link    { color: #000000 }
-a:visited { color: #0000FF }
+body {
+  background-color:#D2B48C;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+
+/*Using a flex table for the links*/
+.contact-container {
+  display: flex;
+  width: 1500px;
+  height: 100px;
+  flex-flow: column wrap;
+  align-items:center;
+  align-content: center;
+  margin: 25px 25px 25px 100px;
+}
+
+.contact-item {
+  display: flex;
+  width: 325px;
+  flex: 1 1 0px;
+  margin-bottom: 3px;
+  align-items: center;
+}
+.contact-item a {
+  font-size: 24px;
+}
+
+/* The sizes for the contact images*/
+#linked-in-img {
+  width: 59px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#github-img {
+  width: 122px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#gmail-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#footer-background {
+  display: flex;
+  color: #FFFFFF;
+  background-image: url("images/nav-background.jpg");
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+a { text-decoration: none; }
+a:link    { color: #FFFFFF } 
+a:visited { color: #FFE4E1 }
 a:hover   { color: #00FF00 }
 a:active  { color: #FF0000 }
