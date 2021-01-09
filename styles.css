@@ -1,0 +1,13 @@
+#header-img {
+  width: 200px;
+  border-radius: 25%;
+}
+
+#footer-links {
+  list-style-type: none;
+}
+
+a:link    { color: #000000 }
+a:visited { color: #0000FF }
+a:hover   { color: #00FF00 }
+a:active  { color: #FF0000 }
