@@ -1,6 +1,15 @@
+#header {
+  display:flex;
+  background-image: url("images/nav-background.jpg");
+}
+
+.nav {
+  color: white;
+}
+
 #header-img {
   width: 200px;
-  border-radius: 25%;
+  border-radius: 50%;
 }
 
 #footer-links {
