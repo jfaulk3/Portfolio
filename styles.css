@@ -69,12 +69,12 @@ body {
   font-family:'Times New Roman', Times, serif;
 }
 
-/*Intro and about CSS*/
+/*Intro and About CSS*/
 .info { 
   background-color:	#DEB887;
   font-size: 30px;
   width: 850px;
-  height: 300px;
+  height: auto;
   margin:10px auto 10px auto;
   padding: 0px 50px 0px 50px;
   border: 3px black solid;
