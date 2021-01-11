@@ -15,14 +15,6 @@ h1 {
 }
 
 h2 {
-  position:relative;
-  font-size: 30px;
-  text-align: center;
-  padding: 0px;
-  margin: 0px;
-}
-
-h3 {
   font-size: 35px;
   text-align: center;
 }
@@ -39,6 +31,7 @@ h3 {
   margin: 25px 50px 25px 50px;
 }
 
+/*Styling the name and title*/
 #myTitle {
   font-size: 25px;
 }
@@ -128,6 +121,15 @@ body {
   margin-right: 10px;
 }
 
+/*Styling the contact section*/
+#contact-me {
+  position:relative;
+  font-size: 30px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
 #footer-background {
   display: flex;
   color: #FFFFFF;
@@ -141,6 +143,7 @@ body {
   height: 2.5rem;
 }
 
+/* Link decorations*/
 a { text-decoration: none; }
 a:link    { color: #FFFFFF } 
 a:visited { color: #BDB76B }
