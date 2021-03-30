@@ -85,6 +85,35 @@ main .item {
   border: 3px black solid;
 }
 
+/* Footer styling*/
+footer { 
+  background-color: #000;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+}
+address { 
+  display: flex;
+  flex-direction: column;
+}
+
+address .item {
+  margin: 10px 0;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+address div {
+  display: flex;
+  flex-direction: row;
+}
+
+address div img {
+  max-width: 20%;
+}
+
 /* Link decorations*/
 a { text-decoration: none; }
 a:link    { color: #FFFFFF } 

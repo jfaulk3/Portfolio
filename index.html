@@ -77,15 +77,15 @@
       </nav>
     </header>
 		<main>
-      <article class="item">
+      <section id="intro" class="item">
         <h2>Hi! I'm Jimmie</h2>
         <p>
           I am a Full Stack developer living in Chicago, Illinois. I am
           interested in designing quality code that can be upgraded and improved
           upon with little difficulty.
         </p>
-      </article>
-      <article class="item">
+      </section>
+      <section id="about" class="item">
         <h2>About Jimmie</h2>
         <p>
           I have been coding since I was a preteen. When I was younger, I
@@ -95,9 +95,46 @@
           from coding, I am an avid reader and a creative writer. My favorite
           genre include fantasy, mystery, and adventure.
         </p>
-      </article>
-      <!--Unused for the moment, will showcase personal projects that I initiated. Projects will be sorted using flexboxes-->
-      <div id="projects"></div>
+      </section>
+      <section id="projects" class="item">
+				<h2>Projects</h2>
+			</section>
     </main>
+		    <!--Footer will grow if the height of items inside the footer container grow.-->
+				<footer id="footer">
+						<address id="contact">
+							<p>Contact Me</p>
+								<!--Contact items will be stored inside a flexbox-->
+								<div class="item">
+									<img
+									class="item"
+										id="linked-in-img"
+										src="images/li-in-bug.png"
+										alt="Linked in's logo, a simple li"
+									/>
+									<a href="https://www.linkedin.com/in/faulknerjimmie3/" class="item">My LinkedIn Profile</a>
+								</div>
+								<div class="item">
+									<img
+									class="item"
+										id="github-img"
+										src="images/github-logo-white.png"
+										alt="Github's logo, which is just github."
+									/>
+									<a href="https://github.com/jfaulk3" class="item">My Github Repositories</a>
+								</div>
+								<div class="item">
+									<img
+									class="item"
+										id="gmail-img"
+										src="images/gmail-logo.png"
+										alt="Red and white envelope which is the Gmail logo."
+									/>
+									<a href="mailto:faulknerjimmie@gmail.com"
+									class="item" >Email me at: faulknerjimmie@gmail.com</a
+									>
+								</div>
+						</address>
+				</footer>
   </body>
 </html>
