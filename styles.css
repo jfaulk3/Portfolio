@@ -7,7 +7,7 @@ html {
 }
 
 /* Stylizing the header*/
-#header {
+header {
   display: flex;
   flex-direction: column;
   color: #fff;
@@ -87,12 +87,14 @@ main .item {
 
 /* Footer styling*/
 footer { 
+  padding-top: 10px;
   background-color: #000;
 }
 
 footer p {
   color: #fff;
   text-align: center;
+
 }
 address { 
   display: flex;
@@ -124,3 +126,64 @@ a:link    { color: #FFFFFF }
 a:visited { color: #BDB76B }
 a:hover   { color: #00FF00 }
 a:active  { color: #FF0000 }
+
+/*CSS changes for desktop version (width greater than 800 pixels)*/
+
+@media all and (min-width: 800px){
+  header {
+    flex-direction: row;
+    padding-bottom: 20px;
+  }
+  
+  .logo-container {
+    padding-left: 40px;
+    flex-flow: row wrap;
+    max-height: 300px;
+    max-width: 300px;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .logo-container .item {
+    padding: 5px;
+    margin: 5px;
+    max-height: 75px;
+  }
+  
+  #profile-img {
+    max-width: 200px;
+  }
+
+  #myself {
+    padding-left: 150px;
+    align-self: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  /*Styling the navigation section*/
+nav ul {
+  flex-flow: column wrap;
+  align-content: center;
+}
+  
+/*Intro and About CSS*/
+
+main .item {
+  align-self: center;
+  max-width: 600px;
+}
+
+main .item p {
+  font-size: 25px;
+}
+/* Footer styling*/
+footer p {
+  font-size: 40px;
+}
+address {
+  flex-direction: row;
+}
+}
