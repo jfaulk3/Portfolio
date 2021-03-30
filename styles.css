@@ -6,6 +6,7 @@ html {
   padding: 0;
 }
 
+/* Stylizing the header*/
 #header {
   display: flex;
   flex-direction: column;
@@ -71,6 +72,18 @@ header nav ul li:last-child a {
   margin-right: 0;
 }
 
+/*Intro and About CSS*/
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main .item {
+  background-color:	#DEB887;
+  margin: 15px 15px;
+  padding: 10px 20px;
+  border: 3px black solid;
+}
 
 /* Link decorations*/
 a { text-decoration: none; }
