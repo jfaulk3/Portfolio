@@ -105,6 +105,10 @@ address .item {
   padding-left: 20px;
 }
 
+address .item a {
+  align-self: center;
+}
+
 address div {
   display: flex;
   flex-direction: row;
