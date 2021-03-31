@@ -1,141 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jimmie Faulkner III</title>
-    <!--Receive Handlee font from google and use normalize to remove any browser default styles-->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Handlee"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="styles.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <header id="header">
-        <img
-          src="images/profile-picture-jimmie.jpg"
-          id="profile-img"
-          alt="A picture of Jimmie Faulkner in a suit."
-					class="item"
-        />
-				<div class="item logo-container">
-				<img
-          src="images/html-logo.png"
-          alt="HTML 5 logo"
-					class="item"
-        />
-				<img
-          src="images/css-logo.png"
-          alt="Css 3 logo"
-					class="item"
-        />
-				<img
-          src="images/js-logo.png"
-          alt="Javascript logo"
-					class="item"
-        />
-				<img
-          src="images/node-logo.png"
-          alt="Node js logo"
-					class="item"
-        />
-				<img
-          src="images/react-logo.png"
-          alt="React logo"
-					class="item"
-        />
-				<img
-          src="images/rails-logo.png"
-          alt="Ruby on Rails logo"
-					class="item"
-        />
-					<img
-          src="images/cpp-logo.png"
-          alt="C++ logo"
-					class="item"
-					id="last-img"
-        />
-				</div>
-      <div id="myself" class="item">
-				<h1>Jimmie Faulkner III</h1>
-        <h2>Full Stack Developer</p>
-      </div>
-      <nav class="item">
-        <ul>
-          <li><a href="#intro">Intro</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-		<main>
-      <section id="intro" class="item">
-        <h2>Hi! I'm Jimmie</h2>
-        <p>
-          I am a Full Stack developer living in Chicago, Illinois. I am
-          interested in designing quality code that can be upgraded and improved
-          upon with little difficulty.
-        </p>
-      </section>
-      <section id="about" class="item">
-        <h2>About Jimmie</h2>
-        <p>
-          I have been coding since I was a preteen. When I was younger, I
-          focused on simple games, but now I find myself hooked on web
-          development. I enjoy working with my fellow developers, creating
-          meaningful friendships while trying to solve complex problems. Aside
-          from coding, I am an avid reader and a creative writer. My favorite
-          genre include fantasy, mystery, and adventure.
-        </p>
-      </section>
-      <section id="projects" class="item">
-				<h2>Projects</h2>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jimmie Faulkner III</title>
+	<!--Receive Handlee font from google and use normalize to remove any browser default styles-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+	<link href="styles.css" rel="stylesheet" type="text/css" /> </head>
+
+<body>
+	<header id="header"> <img src="images/profile-picture-jimmie.jpg" id="profile-img" alt="A picture of Jimmie Faulkner in a suit." class="item" />
+		<div class="item logo-container"> <img src="images/html-logo.png" alt="HTML 5 logo" class="item" /> <img src="images/css-logo.png" alt="Css 3 logo" class="item" /> <img src="images/js-logo.png" alt="Javascript logo" class="item" /> <img src="images/node-logo.png" alt="Node js logo" class="item" /> <img src="images/react-logo.png" alt="React logo" class="item" /> <img src="images/rails-logo.png" alt="Ruby on Rails logo" class="item" /> <img src="images/cpp-logo.png" alt="C++ logo" class="item" id="last-img" /> </div>
+		<div id="myself" class="item">
+			<h1>Jimmie Faulkner III</h1>
+			<h2>Full Stack Developer</p>
+    </div>
+    <nav class="item">
+      <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="intro" class="item">
+      <h2>Hi! I'm Jimmie</h2>
+			<p> I am a Full Stack developer living in Chicago, Illinois. I am interested in designing quality code that can be upgraded and improved upon with little difficulty. </p>
 			</section>
-    </main>
-		    <!--Footer will grow if the height of items inside the footer container grow.-->
-				<footer id="footer">
-					<p>Contact Me</p>
-						<address id="contact">
-								<!--Contact items will be stored inside a flexbox-->
-								<div class="item">
-									<img
-									class="item"
-										id="linked-in-img"
-										src="images/li-in-bug.png"
-										alt="Linked in's logo, a simple li"
-									/>
-									<a href="https://www.linkedin.com/in/faulknerjimmie3/" class="item">My LinkedIn Profile</a>
-								</div>
-								<div class="item">
-									<img
-									class="item"
-										id="github-img"
-										src="images/github-logo-white.png"
-										alt="Github's logo, which is just github."
-									/>
-									<a href="https://github.com/jfaulk3" class="item">My Github Repositories</a>
-								</div>
-								<div class="item">
-									<img
-									class="item"
-										id="gmail-img"
-										src="images/gmail-logo.png"
-										alt="Red and white envelope which is the Gmail logo."
-									/>
-									<a href="mailto:faulknerjimmie@gmail.com"
-									class="item" >Email me at: faulknerjimmie@gmail.com</a
-									>
-								</div>
-						</address>
-				</footer>
-  </body>
+			<section id="about" class="item">
+				<h2>About Jimmie</h2>
+				<p> I have been coding since I was a preteen. When I was younger, I focused on simple games, but now I find myself hooked on web development. I enjoy working with my fellow developers, creating meaningful friendships while trying to solve complex problems. Aside from coding, I am an avid reader and a creative writer. My favorite genre include fantasy, mystery, and adventure. </p>
+			</section>
+			<section id="projects" class="item">
+				<h2>Projects</h2> </section>
+			</main>
+			<!--Footer will grow if the height of items inside the footer container grow.-->
+			<footer id="footer">
+				<p>Contact Me</p> <address id="contact">
+      <!--Contact items will be stored inside a flexbox-->
+
+      <div class="item container">
+        <div class="item">
+          <img class="item" id="linked-in-img" src="images/li-in-bug.png" alt="Linked in's logo, a simple li" />
+          <a href="https://www.linkedin.com/in/faulknerjimmie3/" class="item">My LinkedIn Profile</a>
+        </div>
+        <div class="item">
+          <img class="item" id="github-img" src="images/github-logo-white.png"
+            alt="Github's logo, which is just github." />
+          <a href="https://github.com/jfaulk3" class="item">My Github Repositories</a>
+        </div>
+        <div class="item">
+          <img class="item" id="gmail-img" src="images/gmail-logo.png"
+            alt="Red and white envelope which is the Gmail logo." />
+          <a href="mailto:faulknerjimmie@gmail.com" class="item">Email me at: faulknerjimmie@gmail.com</a>
+        </div>
+      </div>
+      <div class="item">
+        <form
+        id="contact-form" 
+        action="https://formspree.io/f/myylgrol"
+        method="POST"
+      >
+      <div class="item">
+        <label>
+          Your name:
+          <input type="text" name="name">
+        </label>
+      </div>
+      <div class="item">
+        <label>
+          Your email:
+          <input type="email" name="_replyto">
+        </label>
+      </div>
+      <div class="item">
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+      </div>
+      <div class="item"></div>
+      <div class="item"><button type="submit">Send</button></div>
+      </form>
+        </div>
+    </address> </footer>
+</body>
+
 </html>

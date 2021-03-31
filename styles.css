@@ -1,9 +1,11 @@
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 html {
   scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
 }
 
 /* Stylizing the header*/
@@ -37,18 +39,19 @@ header {
   border-radius: 30%;
 }
 
-img { 
+img {
   width: 10%;
 }
 
 /*Styling the name and title*/
-h1, h2 {
+h1,
+h2 {
   align-items: center;
   text-align: center;
 }
 
 body {
-  background-color:#D2B48C;
+  background-color: #d2b48c;
 }
 
 /*Styling the navigation section*/
@@ -63,7 +66,7 @@ nav ul {
 nav ul li {
   margin: 20px 20px 20px 0;
   font-size: 20px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 header nav ul li:last-child a {
@@ -79,14 +82,14 @@ main {
 }
 
 main .item {
-  background-color:	#DEB887;
+  background-color: #deb887;
   margin: 15px 15px;
   padding: 10px 20px;
   border: 3px black solid;
 }
 
 /* Footer styling*/
-footer { 
+footer {
   padding-top: 10px;
   background-color: #000;
 }
@@ -94,47 +97,73 @@ footer {
 footer p {
   color: #fff;
   text-align: center;
-
 }
-address { 
+address {
   display: flex;
   flex-direction: column;
 }
 
-address .item {
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .item {
   margin: 10px 0;
   font-size: 20px;
   padding-left: 20px;
 }
 
-address .item a {
+.container .item a {
   align-self: center;
 }
 
-address div {
+.container div {
   display: flex;
   flex-direction: row;
 }
 
-address div img {
+.container div img {
   max-width: 20%;
 }
 
+#contact-form {
+  padding-top: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+}
+
+#contact-form .item {
+  align-self: center;
+  margin: 5px 0;
+}
 /* Link decorations*/
-a { text-decoration: none; }
-a:link    { color: #FFFFFF } 
-a:visited { color: #BDB76B }
-a:hover   { color: #00FF00 }
-a:active  { color: #FF0000 }
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #e4a3a3;
+}
+a:visited {
+  color: #bdb76b;
+}
+a:hover {
+  color: #00ff00;
+}
+a:active {
+  color: #ff0000;
+}
 
 /*CSS changes for desktop version (width greater than 800 pixels)*/
 
-@media all and (min-width: 800px){
+@media all and (min-width: 800px) {
   header {
     flex-direction: row;
     padding-bottom: 20px;
   }
-  
+
   .logo-container {
     padding-left: 40px;
     flex-flow: row wrap;
@@ -143,13 +172,13 @@ a:active  { color: #FF0000 }
     align-content: center;
     justify-content: center;
   }
-  
+
   .logo-container .item {
     padding: 5px;
     margin: 5px;
     max-height: 75px;
   }
-  
+
   #profile-img {
     max-width: 200px;
   }
@@ -160,30 +189,36 @@ a:active  { color: #FF0000 }
   }
 
   img {
-    width: 100%;
+    width: 20%;
   }
 
   /*Styling the navigation section*/
-nav ul {
-  flex-flow: column wrap;
-  align-content: center;
-}
-  
-/*Intro and About CSS*/
+  nav ul {
+    flex-flow: column wrap;
+    align-content: center;
+  }
 
-main .item {
-  align-self: center;
-  max-width: 600px;
-}
+  /*Intro and About CSS*/
 
-main .item p {
-  font-size: 25px;
-}
-/* Footer styling*/
-footer p {
-  font-size: 40px;
-}
-address {
-  flex-direction: row;
-}
+  main .item {
+    align-self: center;
+    max-width: 600px;
+  }
+
+  main .item p {
+    font-size: 25px;
+  }
+  /* Footer styling*/
+  footer p {
+    font-size: 40px;
+  }
+  address {
+    flex-direction: row;
+  }
+
+  #contact-form {
+    font-size: 20px;
+    width: 100%;
+    background-color: black;
+  }
 }
