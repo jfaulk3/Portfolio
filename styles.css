@@ -81,11 +81,50 @@ main {
   flex-direction: column;
 }
 
-main .item {
+main > .item {
   background-color: #deb887;
   margin: 15px 15px;
   padding: 10px 20px;
   border: 3px black solid;
+}
+/*Projects CSS*/
+#projects h2 {
+  margin: 10px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-container h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.project-container p {
+  margin-bottom: 10px;
+}
+
+.project-container a {
+  color: #000;
+}
+
+.project-container a:visited {
+  color: #000;
+}
+
+.project-container .item {
+  margin: 5px;
+  border-bottom: 3px black solid;
+}
+
+#projects img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 50%;
 }
 
 /* Footer styling*/
@@ -202,18 +241,50 @@ a:active {
 
   main .item {
     align-self: center;
-    max-width: 600px;
+    width: 600px;
   }
 
   main .item p {
     font-size: 25px;
   }
+
+  /*Projects CSS*/
+  #projects {
+    width: 75%;
+    border: 3px #d2b48c solid;
+    background-color: #d2b48c;
+  }
+
+  .project-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .project-container .item {
+    min-width: 425px;
+    max-width: 425px;
+    padding: 20px;
+    border: 3px black solid;
+  }
+
   /* Footer styling*/
   footer p {
     font-size: 40px;
   }
-  address {
-    flex-direction: row;
+  .container {
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+  .container .item {
+    min-width: 100px;
+    min-width: 100px;
+    margin: 10px 0;
+    font-size: 20px;
+    padding-left: 20px;
   }
 
   #contact-form {
