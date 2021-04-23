@@ -38,12 +38,6 @@
 
   <body>
     <header id="header">
-      <img
-        src="images/profile-picture-jimmie.jpg"
-        id="profile-img"
-        alt="A picture of Jimmie Faulkner in a suit."
-        class="item"
-      />
       <div id="myself" class="item">
         <h1>Jimmie Faulkner III</h1>
         <h2>Full Stack Developer</h2>
@@ -82,20 +76,42 @@
         <div class="project-container">
           <div class="item">
             <img
+              class="project-img"
               src="https://images.pexels.com/photos/355952/pexels-photo-355952.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              alt="A bright idea!"
             />
-            <h3>Quiz Application (in progress)</h3>
+            <h3>Quiz Application</h3>
             <p>
-              A mobile-first, responsive quiz application. Makes use of the
-              trivia api found at https://opentdb.com/.
+              <b>Summary:</b> A mobile-first, responsive quiz application. Makes
+              use of the trivia api found at https://opentdb.com/. The purpose
+              of this project was to increase my proficiency in React and
+              TypeScript.
             </p>
+            <p>
+              <b>Problems:</b> This was my first project using typescript and I
+              jumped in blindly. The first issue that I had, was abusing the
+              power of explicit typing. I was explicit typing every variable and
+              creating interfaces for every object. This ruined one of the most
+              valuable aspects of TypeScript: clean, readable code.
+            </p>
+            <p>
+              <b>Solutions:</b> My program was so confusing that I had to
+              restart the project from scratch. This time I made sure to use
+              implicit types where the type was obvious. I also made sure to
+              break my ui into more components to improve readability.
+            </p>
+            <p>
+              <b>Future Goals</b> Replace the arrow buttons with a drop down
+              menu. Customize to CSS to be desktop friendly.
+            </p>
+
             <p>Skills used: HTML/CSS/TypeScript, React, Bootstrap</p>
             <a href="https://github.com/jfaulk3/quiz-app">Github Repository</a>
             <br />
             <br />
             <a
               class="bottom"
-              href="https://quiz-app-pwer7ws16-jfaulk3.vercel.app/"
+              href="https://quiz-app-klzd0t3m3-jfaulk3.vercel.app/"
               >See it Live!</a
             >
           </div>
