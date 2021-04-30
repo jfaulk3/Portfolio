@@ -115,6 +115,48 @@
               >See it Live!</a
             >
           </div>
+          <div class="item">
+            <img
+              class="project-img"
+              src="./images/triforce.png"
+              alt="The triforce from zelda!"
+            />
+            <h3>Zelda: Breath of the Wild Compendium</h3>
+            <p>
+              <b>Summary:</b> This is a mobile-first, responsive web application
+              that will fetch data from gadhagod's Hyrule Compendium API. My
+              approach to this application will be functionality first, visuals
+              last. The stack being used is TypeScript, React, and SASS. This
+              application also serves as practice with JavaScript testing. Jest
+              is being used for component testing.
+            </p>
+            <p>
+              <b>Problems:</b> One immediate problem with the project was
+              setting up the testing environment. At the start of the project, I
+              wasn't aware that react has a default test in the latest versions.
+              The older tutorials that I were following had me install a
+              seperate version of jest. This produced errors that left me
+              stumped for a while. <br />
+              Another thing I learned is that typescript packages are installed
+              with slightly different syntax than regular javascript. I had to
+              use `yarn add @types/react-router-dom` as opposed to 'yarn add
+              react-router-dom'. I didn't carefully read the documentation. I
+              spent hours trying to figure out why my was programming was
+              breaking. <br />It turns out, I assumed that the API response
+              would give me an array of objects. What it actually gave me was an
+              object with a property that contained an array of objects inside
+              of it.
+            </p>
+            <p><b>Future Goals</b> Add the ability to sort.</p>
+
+            <p>Skills used: HTML/CSS/TypeScript, React, SASS</p>
+            <a href="https://github.com/jfaulk3/Breath-of-the-Wild-Compendium"
+              >Github Repository</a
+            >
+            <br />
+            <br />
+            <a class="bottom" href="#">See it Live!</a>
+          </div>
         </div>
       </section>
     </main>

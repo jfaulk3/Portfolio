@@ -259,6 +259,7 @@ a:active {
   }
 
   .project-container .item {
+    min-height: 1000px;
     min-width: 425px;
     max-width: 50%;
     padding: 20px;
